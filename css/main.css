@@ -21,8 +21,42 @@ body {
 .dropdown-title {
   padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .dropdown-section-container {
   display: flex;
+}
+
+.dropdown-text {
+  margin-left: 16px;
+}
+
+@keyframes underline {
+  0% {
+    width: 0PX;
+  }
+  100% {
+    width: 100PX;
+  }
+}
+.underline {
+  height: 1px;
+  width: 100px;
+  margin-left: 16px;
+}
+
+.underline-container:hover .underline {
+  background-color: #1264a3;
+  animation-name: underline;
+  animation-duration: 0.6s;
+}
+
+.dropdown-menu[data-bs-popper] {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.special-dropdown {
+  background-color: #f4ede4;
 }/*# sourceMappingURL=main.css.map */

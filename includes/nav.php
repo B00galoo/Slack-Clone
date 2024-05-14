@@ -36,11 +36,14 @@
                         <li><a href="#" class="dropdown-item"><b>Slack Atlas</b><br>Discover rich profiles and org<br>charts</a></li>
                     </div>
                     <div class="dropdown-container special-dropdown">
-                        <li class="dropdown-title">Featured</li>
-                        <img src="images/nav-img.png" alt="text">
-                        <li class="dropdown-text">Businesses of all sizes are working faster and smarter with Slack AI</li>
-                        <li><a href="#" class="dropdown-item">Learn more</a></li>
-                        <li><hr class="dropdown-divider"></li>
+                        <div class="underline-container">
+                            <li class="dropdown-title">Featured</li>
+                            <img style="width: 190px; margin: 0 16px;" src="images/nav-img.png" alt="text">
+                            <li class="dropdown-text">Businesses of all sizes are working faster and smarter with Slack AI</li>
+                            <li ><a style="color:#1264a3;" href="#" class="dropdown-item underline-animation">Learn more <span>&#8594;</span></a></li>
+                            <li><div class="underline"></div></li>
+                            <li style="padding: 0 16px;"><hr class="dropdown-divider"></li>
+                        </div>
                         <li><a href="#" class="dropdown-item"><b>What is Slack?</b></a></li>
                         <li><a href="#" class="dropdown-item"><b>Slack vs. Email</b></a></li>
                         <li><a href="#" class="dropdown-item"><b>Accessibility</b></a></li>
