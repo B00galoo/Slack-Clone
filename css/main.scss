@@ -7,8 +7,8 @@ body{
 
 .features-dropdown{
     
-    
     li{
+      
         :hover{
             color: $primary-blue ;
 
@@ -33,5 +33,9 @@ body{
 .dropdown-title{
     padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
     font-weight: bold;
+}
+
+.dropdown-section-container{
+    display: flex;
 }
 
