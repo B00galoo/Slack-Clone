@@ -1,0 +1,36 @@
+$primary-blue: #1264a3;
+
+body{
+    font-family: 'helvetica neue';
+}
+
+.features-dropdown{
+    display: flex;
+    
+    li{
+        :hover{
+            color: $primary-blue ;
+
+            b{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+.dropdown-item:focus, .dropdown-item:hover{
+    color: transparent;
+    background-color: transparent;
+}
+
+.navbar-nav .dropdown-menu{
+    position: absolute;
+}
+
+.dropdown-title{
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    font-weight: bold;
+}
+
