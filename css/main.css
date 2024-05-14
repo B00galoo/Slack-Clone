@@ -1,3 +1,7 @@
+.purple {
+  color: #611f69;
+}
+
 body {
   font-family: "helvetica neue", "helvetica";
 }
@@ -59,4 +63,24 @@ body {
 
 .special-dropdown {
   background-color: #f4ede4;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cta .cta-buttons {
+  color: white;
+  border: none;
+}
+.cta .cta-buttons #google {
+  background-color: #611f69;
+}
+.cta .cta-buttons #google img {
+  width: 20px;
+  border-radius: 3px;
+}
+.cta .cta-buttons #email {
+  background-color: #1264a3;
 }/*# sourceMappingURL=main.css.map */

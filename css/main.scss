@@ -1,5 +1,9 @@
 $primary-blue: #1264a3;
+$primary-purple: #611f69;
 
+.purple{
+    color: $primary-purple;
+}
 
 body{
     font-family: 'helvetica neue', 'helvetica';
@@ -76,4 +80,31 @@ body{
 
 .special-dropdown{
     background-color: #f4ede4;
+}
+
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .cta-buttons{
+        color: white;
+        border: none;
+        
+        #google{
+            background-color: $primary-purple;
+            
+            img{
+                width: 20px;
+                border-radius: 3px;
+                
+            }
+        }
+
+        #email{
+            background-color: $primary-blue;
+            
+        }
+    }
 }
