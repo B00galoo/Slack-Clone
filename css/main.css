@@ -1,10 +1,7 @@
 body {
-  font-family: "helvetica neue";
+  font-family: "helvetica neue", "helvetica";
 }
 
-.features-dropdown {
-  display: flex;
-}
 .features-dropdown li :hover {
   color: #1264a3;
 }

@@ -1,11 +1,12 @@
 $primary-blue: #1264a3;
 
+
 body{
-    font-family: 'helvetica neue';
+    font-family: 'helvetica neue', 'helvetica';
 }
 
 .features-dropdown{
-    display: flex;
+    
     
     li{
         :hover{
