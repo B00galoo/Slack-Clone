@@ -74,13 +74,23 @@ body {
   color: white;
   border: none;
 }
+.cta .cta-buttons .btn {
+  color: white;
+  padding: 15px 35px;
+}
+.cta .cta-buttons .btn :hover {
+  color: white;
+}
 .cta .cta-buttons #google {
-  background-color: #611f69;
+  background-color: #1264a3;
 }
 .cta .cta-buttons #google img {
   width: 20px;
   border-radius: 3px;
 }
 .cta .cta-buttons #email {
-  background-color: #1264a3;
+  background-color: #611f69;
+}
+.cta .cta-buttons #email :hover {
+  background-color: red;
 }/*# sourceMappingURL=main.css.map */

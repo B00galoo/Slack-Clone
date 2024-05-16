@@ -1,5 +1,6 @@
 $primary-blue: #1264a3;
 $primary-purple: #611f69;
+$dark-purple: #4a154b;
 
 .purple{
     color: $primary-purple;
@@ -8,6 +9,8 @@ $primary-purple: #611f69;
 body{
     font-family: 'helvetica neue', 'helvetica';
 }
+
+
 
 .features-dropdown{
     
@@ -92,8 +95,21 @@ body{
         color: white;
         border: none;
         
+        
+        .btn{
+            color: white;
+            padding: 15px 35px;
+            
+            :hover{
+                color: white;
+                
+            }   
+            
+        }
+
         #google{
-            background-color: $primary-purple;
+            background-color: $primary-blue;
+            
             
             img{
                 width: 20px;
@@ -103,8 +119,12 @@ body{
         }
 
         #email{
-            background-color: $primary-blue;
+            background-color: $primary-purple;
             
+
+            :hover{
+                background-color: red;
+            }
         }
     }
 }

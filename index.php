@@ -13,8 +13,8 @@
     <section class="cta">
         <h1>Made for people. <span class="purple"> Built for productivity</span></h1>
         <di class="cta-buttons">
-            <button id="email">SIGN UP WITH EMAIL</button>
-            <button id="google"><img src="images/google-logo.jpeg" alt="Google logo">SIGN UP WITH GOOGLE</button>
+            <button class="btn" id="email">SIGN UP WITH EMAIL</button>
+            <button class="btn" id="google"><img src="images/google-logo.jpeg" alt="Google logo">SIGN UP WITH GOOGLE</button>
         </div>
         <p><b>Slack is free to try</b> for as long as you'd like</p>
         <div class="cta-images">
